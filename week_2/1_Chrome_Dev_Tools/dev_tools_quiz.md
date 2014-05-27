@@ -37,5 +37,5 @@ add explanation
   http://s7.addthis.com/static/btn/v2/lg-share-en.gif 
   size: 1.6 KB
 
-* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  Optimizing images to reduce file size
-How many kilobytes of data can be eliminated? 885KB
+
+* Test the www.ticketswizard.com website with google's [PageSpeed Insights](http://www.ticketswizard.com/).  (You can also download the chrome plugin).  What is the easiest thing to change to optimize the website?  How many kilobytes of data can be eliminated?
