@@ -80,4 +80,12 @@ Define the following commands and describe how they work/what they do.
 2. Solution
 3. Cause (explain the error)
 
+<p> Errors I encountered </p>
+
+<p> Error: When attempting to use the cmd line to push my changes to my remote repo, I encountered the error "you have unmerged paths -- use git add to mark resolution"</p>
+
+<p> Solution: I used text editor to open every file that had a conflict and then removed the conflict syntax and made any necessary adjustments. I then used git add <file> to upload the file with the reconciled differences. </p>
+
+<p> Cause: the error exists because two or more edits had been made to the same content. In my case, it looked like two DBC editors had edited the same .md files for the phase_0_unit_1 repo. Git is unsure which edit should be accepted, so it asks the user to determine which edit to accept. </p>
+
 ## Release 6: Reflection
