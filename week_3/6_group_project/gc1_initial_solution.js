@@ -54,15 +54,15 @@ console.log(total/length)
 var numbers = [3,4,6,7,8,9];
 
 if(numbers.length % 2 != 0){
-	var middle = math.floor(numbers.length/2);
-	console.log(numbers[middle])
+	var middle = Math.floor(numbers.length/2);
+	console.log(middle)
 }
 
 else{
 	var number1 = numbers.length/2;
 	var number2 = number1 - 1;
-	var middle = ((number1 + number2)/2);
-	console.log(numbers[middle])
+	var middle = ((numbers[number1] + numbers[number2])/2);
+	console.log(middle)
 }
 
 
