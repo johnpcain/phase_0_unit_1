@@ -54,8 +54,7 @@ console.log(total/length)
 var numbers = [3,4,6,7,8,9];
 
 if(numbers.length % 2 != 0){
-	var length = numbers.length - 1;
-	var middle = (length /2).floor;
+	var middle = math.floor(numbers.length/2);
 	console.log(numbers[middle])
 }
 
