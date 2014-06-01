@@ -3,6 +3,24 @@
 // __________________________________________
 // Write your code below.
 
+//pseudocode
+//write variable named secretNumber and set equal to 
+
+
+var secretNumber = 7
+
+password = "just open the door"
+
+var allowedIn =false;
+
+members =["John", "irene", "nova", "Mary"]
+
+
+
+
+
+
+
 
 
 

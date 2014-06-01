@@ -1,0 +1,33 @@
+img{
+	border: 0px solid;
+	border-radius: 1px;
+	position: relative;
+	left:300px;
+	top:-150px;
+}
+
+#wrapper{
+	margin-left:200px;
+	margin-top: 100px;
+	width:50%;
+
+}
+
+body{
+	background-color: black;
+	color:white;
+	font-family: 'Pacifico', cursive;
+	background-image: url("http://th02.deviantart.net/fs70/PRE/f/2012/038/5/0/blood_splatter_background_by_pudgey77-d4ozy89.jpg");
+}
+
+p{
+	width: 300px;
+	display: inline-block;
+	position: relative;
+	left:320px;
+	top:-150px;
+}
+
+#form{
+	display: inline-block;
+}
