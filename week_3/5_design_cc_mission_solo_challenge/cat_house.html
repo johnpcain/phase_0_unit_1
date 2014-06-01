@@ -1,0 +1,33 @@
+<!-- //mission
+// a kitten and mouse are shown on the screen. the user must input directions that move the mouse away from the kitten, otherwise the mouse will get eaten. 
+
+//pseudocode
+// html form with a single input text field and a button that says 'apply move'
+// the moves will print out to the screen after they are applied
+// add two images, a mouse and kitten, and apply positioning to the images
+// the 'apply move' button will activate the Movemouse function in the js form
+// the moveMouse function will have a variable that gets the information from the text field
+// local variables will be set that determine the positioning of the cat and mouse
+// the variable containing the 'move' will be passed through an if/else loop to determine how to positioning of the mouse will modify
+// the positioning of the cat will increment based on the new positioning of the mouse
+// if the positioning of the two are ever the same, then a message will be printed saying that the cat has eaten the mouse -->
+
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="cat_mouse.css">
+		<script type="text/javascript" src="cat_mouse.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+		<form name="mouseField">
+			<label>Choose your directional move: <label>
+			<input type="text" id="move"><br>
+			<input type="button" value="Move Away!" id="result" onClick="moveMouse()">
+			<div id="output"</div>
+		<img id="cat" src="http://3.bp.blogspot.com/_6UutPi04oTI/SwYRF9IvaMI/AAAAAAAAAIM/Y74LndsKTcI/s1600/cartoon-cats-black-cat.jpg" alt="" height="25%">
+		<img id="mouse" src="http://www.search-best-cartoon.com/cartoon-mouse/cartoon-mouse-15.jpg" alt="" height="15%">
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+#mouse{
+	display: block;
+	position:relative;
+
+}
+
+#cat{
+	display: block;
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper{
+	width:75%;
+	margin-top: 50px;
+	margin-left: 200px;
+}
