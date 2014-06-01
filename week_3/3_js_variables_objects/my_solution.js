@@ -4,12 +4,15 @@
 // Write your code below.
 
 //pseudocode
-//write variable named secretNumber and set equal to 
+//write variable named secretNumber and set equal to a number
+// write variable called password and set equal to a string
+// write variable called allowedIn and set equal to false
+// write an array and set it equal to a group of strings with John as the first and Mary as the foruth
 
 
 var secretNumber = 7
 
-password = "just open the door"
+var password = "just open the door"
 
 var allowedIn =false;
 
